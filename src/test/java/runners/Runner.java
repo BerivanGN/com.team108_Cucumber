@@ -44,5 +44,6 @@ public class Runner {
              sadece adımları kontrol eder ve eksik adım varsa kodları oluşturur
              eksik adım yoksa hiçbir adımı çalıştırmadan TEST PASSED der.
              Buradaki test passed "EKSİK ADIM YOK" anlamına gelmektedir.
+     plugin : raporlama için eklenen notasyondur.
 
  */
