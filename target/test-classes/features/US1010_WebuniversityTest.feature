@@ -10,10 +10,10 @@ Feature: US1010 WebUniversity Testi
     And   Username kutusuna deger yazdirir
     And   Password kutusuna deger yazdirir
     Then  webUniversity login butonuna basar
-    And   5 saniye bekler
+    And   3 saniye bekler
     And   Popup'ta cikan yazinin "validation failed" oldugunu test eder
     And   3 saniye bekler
     And   Ok diyerek Popup'i kapatir
     Then  ilk sayfaya geri doner
     And   ilk sayfaya donuldugunu test eder
-    And   tum sayfalari kapatir
+

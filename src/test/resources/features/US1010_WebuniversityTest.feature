@@ -16,4 +16,4 @@ Feature: US1010 WebUniversity Testi
     And   Ok diyerek Popup'i kapatir
     Then  ilk sayfaya geri doner
     And   ilk sayfaya donuldugunu test eder
-    And   tum sayfalari kapatir
+
