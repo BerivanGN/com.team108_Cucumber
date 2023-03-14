@@ -89,7 +89,6 @@ public class AmazonStepdefinitions {
         String expecteUrl=ConfigReader.getProperty(istenenUrl) + "/";
         Assert.assertEquals(expecteUrl,actualUrl);
     }
-
     @When("{int}.urune gider")
     public void urune_gider(Integer istenenIndex) {
         amazonPage.istenenUrunElementi(istenenIndex).click();
