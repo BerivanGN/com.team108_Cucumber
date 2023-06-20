@@ -14,7 +14,7 @@ import utilities.ReusableMethods;
 public class AmazonStepdefinitions {
     AmazonPage amazonPage = new AmazonPage();
 
-    @Given("kullanici amazon anasayfaya gider")
+    /*@Given("kullanici amazon anasayfaya gider")
     public void kullanici_amazon_anasayfaya_gider() {
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
 
@@ -36,7 +36,7 @@ public class AmazonStepdefinitions {
     public void sayfayi_kapatir() {
         Driver.closeDriver();
 
-    }
+    }*/
 
     @When("arama kutusuna Java yazar ve enter tusuna basar")
     public void aramaKutusunaJavaYazarVeEnterTusunaBasar() {

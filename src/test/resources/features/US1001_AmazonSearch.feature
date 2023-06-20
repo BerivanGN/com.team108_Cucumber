@@ -1,6 +1,6 @@
 Feature: US1001 Kullanici Amazon sayfasında arama yapar
 
-  @ilk
+  @GridTest
   Scenario: TC01 Kullanici Amazonda Nutella aratir
 
     Given kullanici amazon anasayfaya gider
